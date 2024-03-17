@@ -1,0 +1,42 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('white.jpg');
+  }
+  
+  .task-manager {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+  }
+  
+  .task-form input[type="text"],
+  .task-form select,
+  .task-form button {
+    margin-bottom: 10px;
+  }
+  
+  .task-list {
+    margin-top: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .task-item {
+    margin-bottom: 10px;
+    
+  }
+  
+  .task-item.high {
+    color: red;
+  }
+  
+  .task-item.medium {
+    color: orange;
+  }
+  
+  .task-item.low {
+    color: green;
+  }
+  
